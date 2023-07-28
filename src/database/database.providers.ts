@@ -14,6 +14,7 @@ export const databaseProviders = [
         entities: [
             __dirname + '/../**/*.entity{.ts,.js}',
         ],
+        //Synchronize não pode ficar true em produção para evitar erros, já que ele atualiza o que foi feito no banco
         synchronize: true,
       });
 
