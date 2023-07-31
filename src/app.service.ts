@@ -6,12 +6,11 @@ export class AppService {
     return 'Hello World!';
   }
 
-  getObject(): any {
+  getObject(): any{
     let objeto = {
       id: 1,
-      nome: 'Jonnas',
-    };
-
-    return objeto;
+      nome: "Leandro"
+    }
+    return objeto
   }
 }
